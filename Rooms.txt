@@ -1,0 +1,48 @@
+Rooms
+ID = 1,
+name = Beginning
+Description
+You are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and
+spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.
+exits
+You can go WEST 2
+
+ID = 2, name = Entrance
+Description
+You have entered a dark, low cave that seems to lead to a slightly larger cavern to the west. Strangely you see a faint
+glow coming from the east.
+exits
+You can go EAST 1 or WEST 3
+
+ID = 3, name = Cavern
+Description
+You enter a large cavern. You are surprised to find that the walls of the cave are glowing so you have no problem
+seeing the large stalactites that have formed. To the south you hear the sound of rushing water. To the north you hear
+strange sounds that sound like someone with a broken heart. You see as set of stairs at the west end of the cavern.
+exits
+You can go EAST 2 or DOWN 6
+
+ID = 4, name = Spooky Cave
+Description
+You have entered a dark twisting, tunnel that seems to wind around the Cavern. The low wailing you heard before has
+risen to a screech that is making your hair stand on end. You see a sign that says "Proceed at your own risk. Anyone
+entering this area will be eaten.
+exits
+You can go NORTH 5
+
+ID = 5, name = Rushing River
+Description
+You have entered a wet, slippery cave. You are standing on a narrow ledge. As you slip toward the rushing river, you
+think, "I shouldn't be here.
+exits
+You can go SOUTH 4 WEST 6
+
+ID = 6, name = Second level
+Description
+At the bottom of the stairs you see a skeleton from a previous adventurer. You really wish you had some good weapons.
+exits
+You can go UP 3 or EAST 5
+
+Congratulations!!! You have completed the journey through my maze
+
+
