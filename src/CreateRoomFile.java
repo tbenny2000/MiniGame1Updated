@@ -17,32 +17,31 @@ public class CreateRoomFile {
             System.exit(0);
         }
 
+
         try
         {
-            Rooms room1 = new Rooms(1, "Beginning", "You are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and\n" +
-                    "spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.", "WEST 2");
+            Rooms room1 = new Rooms(1, "The Open Forest", "You are standing in the middle of a forest. You can see something but are not sure what it is,\n" +
+                    "so you get closer and things become clearer. It is an abandoned mine.", "WEST 2");
             output.writeObject(room1);
 
-            Rooms room2 = new Rooms(2, "Entrance", "You have entered a dark, low cave that seems to lead to a slightly larger cavern to the west. Strangely you see a faint\n" +
-                    "glow coming from the east.", "EAST 1 or WEST 3");
+            Rooms room2 = new Rooms(2, "Abandoned mine.", "You have entered the mine which is pitch dark, it gets slightly larger as you go in deeper to the west.\n" +
+                    "Strangely you see a faint glow coming from the east.", "EAST 1 or WEST 3");
             output.writeObject(room2);
 
-            Rooms room3 = new Rooms(3, "Cavern", "You enter a large cavern. You are surprised to find that the walls of the cave are glowing so you have no problem\n" +
-                    "seeing the large stalactites that have formed. To the south you hear the sound of rushing water. To the north you hear\n" +
-                    "strange sounds that sound like someone with a broken heart. You see as set of stairs at the west end of the cavern.", "EAST 2 or DOWN 6");
+            Rooms room3 = new Rooms(3, "Beach", "You see a large beach and you are surprised to find out that there are some tents but no people. The water\n" +
+                    "down seems crystal clear which is tempting but there is a sound coming from the east.", "EAST 2 or DOWN 6");
             output.writeObject(room3);
 
-            Rooms room4 = new Rooms(4, "Spooky Cave", "You have entered a dark twisting, tunnel that seems to wind around the Cavern. The low wailing you heard before has\n" +
-                    "risen to a screech that is making your hair stand on end. You see a sign that says \"Proceed at your own risk. Anyone\n" +
-                    "entering this area will be eaten.", "NORTH 5");
+            Rooms room4 = new Rooms(4, "Tree House", "You enter a tree house that has a set of stairs that looks like they are in pretty bad shape\n" +
+                    "however, you ignore the danger and you go in.", "NORTH 5");
             output.writeObject(room4);
 
-            Rooms room5 = new Rooms(5, "Rushing River", "You have entered a wet, slippery cave. You are standing on a narrow ledge. As you slip toward the rushing river, you\n" +
-                    "think, \"I shouldn't be here.", "SOUTH 4 or WEST 6");
+            Rooms room5 = new Rooms(5, "Lazy River", "You have entered an enchanted forest that seems amazing, but as time passes by you realized that it becomes\n" +
+                    "harder and harder to move because of the thick bushes that surround you. You see an escape to the west.", "SOUTH 4 or WEST 6");
             output.writeObject(room5);
 
-            Rooms room6 = new Rooms(6, "Second level", "At the bottom of the stairs you see a skeleton from a previous adventurer. You really wish you had some good weapons.",
-                    "UP 3 or EAST 5");
+            Rooms room6 = new Rooms(6, "Second level", "You have climbed the top of the trees and can see how you find your way home. The scene is amazing and it is almost\n" +
+                    "nightfall, so you make a camp for tonight because tomorrow will be another adventure day.", "UP 3 or EAST 5");
             output.writeObject(room6);
 
         } catch (IOException ex)
